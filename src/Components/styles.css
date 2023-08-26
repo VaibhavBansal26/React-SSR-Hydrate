@@ -1,0 +1,148 @@
+#mainSphereContainer {
+    margin: 0;
+    overflow: hidden;
+  }
+#myCanvas {
+    width: 100vw;
+    height: 60vh;
+  }
+  @media screen and (max-width: 700px) {
+    .skillMain {
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    .skillText {
+        width: 100% !important;
+    }
+    #mainSphereContainer {
+        width: 100% !important;
+    }
+}
+@media screen and (max-width: 400px) {
+    .skillMain {
+        margin-top: -80px;
+    }
+}
+.seo-heading {
+    color: var(--white-color);
+    font-weight: bold;
+  }
+  
+  /* .seo-link {
+    color:  var(--primary-color);
+  } */
+  
+  .seo-note {
+    font-size: 14px;
+  }
+
+  .code-block {
+    font-family: 'Source Code Pro';
+    padding: 20px;
+    border-radius: 5px;
+    line-height: 1.3;
+    white-space: pre-wrap;
+  }
+
+  .code-block2 {
+    font-family: 'Source Code Pro';
+    padding: 20px;
+    border-radius: 5px;
+    line-height: 1.3;
+    white-space: pre-wrap;
+    bottom: 0px;
+    right: 0px;
+  }
+  
+  .function {
+    color: var(--primary-code-color-function);
+    font-family: 'Source Code Pro';
+  }
+  
+  .class-name {
+    color: var(--primary-code-color-class-name);
+  }
+  
+  .comment {
+    color: var(--primary-code-color-comment);
+  }
+  
+  .comment-text {
+    color: var(--primary-code-color-comment-text);
+    font-style: italic;
+  }
+  
+  .keyword {
+    color: var(--primary-code-color-keyword);
+    font-family: 'Source Code Pro';
+  }
+  
+  .property {
+    color: var(--primary-code-color-property);
+    font-family: 'Source Code Pro';
+  }
+  
+  .string {
+    font-family: 'Source Code Pro';
+    color: var(--primary-code-color-string);
+  }
+
+  .bracket {
+    color:var(--primary-code-color-bracket);
+    font-family: 'Source Code Pro';
+  }
+  
+  .number {
+    color: var(--primary-code-color-number);
+  }
+  
+  .typewriter {
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 0.15em solid black;
+    font-family: 'Source Code Pro';
+    font-size: 11px;
+    animation: typing 3s steps(40), blink-caret 0.75s step-end infinite;
+    caret-color: transparent;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: black;
+    }
+  }
+
+ .code-block {
+    display: block;
+    caret-color: transparent;
+ }
+ .code-block2 {
+     display: block;
+     caret-color: transparent;
+ }
+
+  @media screen and (max-width: 400px) {
+    .code-block {
+       display: none;
+    }
+    .code-block2 {
+        display: none;
+    }
+}
+  
+
+
